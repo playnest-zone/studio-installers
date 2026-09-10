@@ -9,14 +9,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/playnest-zone/studio-installers/releases/tag/v0.1.5"><img src="https://img.shields.io/badge/release-v0.1.5-f59e0b" alt="Latest release: v0.1.5"></a>
+  <a href="https://github.com/playnest-zone/studio-installers/releases/tag/v0.1.6"><img src="https://img.shields.io/badge/release-v0.1.6-f59e0b" alt="Latest release: v0.1.6"></a>
   <a href="https://github.com/playnest-zone/studio-installers/releases"><img src="https://img.shields.io/github/downloads/playnest-zone/studio-installers/total" alt="Downloads"></a>
   <a href="#choose-an-installer"><img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS-6b7280" alt="Platforms"></a>
 </p>
 
 ## Download
 
-### [Download PlayNest Studio v0.1.5](https://github.com/playnest-zone/studio-installers/releases/tag/v0.1.5)
+### [Download PlayNest Studio v0.1.6](https://github.com/playnest-zone/studio-installers/releases/tag/v0.1.6)
 
 This repository contains official PlayNest Studio installers and release notes. It does not contain the application source code.
 
