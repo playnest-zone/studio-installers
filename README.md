@@ -1,10 +1,18 @@
-# PlayNest Studio
+<p align="center">
+  <img src="assets/playnest-studio-logo.png" alt="PlayNest Studio logo" width="144">
+</p>
 
-> A desktop AI video production suite for turning scripts into narrated videos with generated visuals, synchronized subtitles, and a reusable production pipeline.
+<h1 align="center">PlayNest Studio</h1>
 
-[![Latest release](https://img.shields.io/github/v/release/playnest-zone/studio-installers?display_name=tag&sort=semver)](https://github.com/playnest-zone/studio-installers/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/playnest-zone/studio-installers/total)](https://github.com/playnest-zone/studio-installers/releases)
-[![Platforms](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-6b7280)](#choose-an-installer)
+<p align="center">
+  A desktop AI video production suite for turning scripts into narrated videos with generated visuals, synchronized subtitles, and a reusable production pipeline.
+</p>
+
+<p align="center">
+  <a href="https://github.com/playnest-zone/studio-installers/releases/latest"><img src="https://img.shields.io/github/v/release/playnest-zone/studio-installers?display_name=tag&amp;sort=semver" alt="Latest release"></a>
+  <a href="https://github.com/playnest-zone/studio-installers/releases"><img src="https://img.shields.io/github/downloads/playnest-zone/studio-installers/total" alt="Downloads"></a>
+  <a href="#choose-an-installer"><img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS-6b7280" alt="Platforms"></a>
+</p>
 
 ## Download
 
