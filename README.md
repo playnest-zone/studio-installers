@@ -1,34 +1,68 @@
 # PlayNest Studio
 
-PlayNest Studio is a desktop AI video production suite for building narrated videos from scripts, images, subtitles, and reusable production pipelines.
+> A desktop AI video production suite for turning scripts into narrated videos with generated visuals, synchronized subtitles, and a reusable production pipeline.
+
+[![Latest release](https://img.shields.io/github/v/release/playnest-zone/studio-installers?display_name=tag&sort=semver)](https://github.com/playnest-zone/studio-installers/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/playnest-zone/studio-installers/total)](https://github.com/playnest-zone/studio-installers/releases)
+[![Platforms](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-6b7280)](#choose-an-installer)
 
 ## Download
 
-Download the latest public installer from the [Releases page](https://github.com/playnest-zone/studio-installers/releases/latest).
+### [Download the latest release](https://github.com/playnest-zone/studio-installers/releases/latest)
 
-### Windows
+This repository contains official PlayNest Studio installers and release notes. It does not contain the application source code.
 
-- Use the `.exe` file for the standard installation experience.
-- Use the `.msi` file for managed or enterprise deployment.
-- Requires Windows 10 or later on a 64-bit computer.
+## Choose an installer
 
-### macOS
+| Platform | Package | Recommended for |
+| --- | --- | --- |
+| Windows 10 or later (64-bit) | `.exe` | Most users and standard interactive installation |
+| Windows 10 or later (64-bit) | `.msi` | Managed, silent, or enterprise deployment |
+| macOS — Apple silicon | `.dmg` or `.pkg` marked `arm64` | Macs with Apple M-series processors |
+| macOS — Intel | `.dmg` or `.pkg` marked `x64` | Intel-based Macs |
 
-- Use the `.pkg` installer when a macOS release is available.
-- Apple silicon and Intel packages may be published separately.
+Only packages available on the latest release page are currently published.
 
 ## First-time setup
 
-An internet connection is required during the initial setup. PlayNest Studio downloads and verifies its managed AI runtime and model files before enabling the production pipeline.
+PlayNest Studio downloads and verifies its managed AI runtime and model files during initial setup. Keep the application open and maintain a stable internet connection until setup completes.
 
-## Verify downloads
+Large model downloads can take several minutes depending on network speed.
 
-Each release includes `SHA256SUMS.txt`. Compare its hashes with the downloaded installer before installation.
+## Verify your download
 
-## Security and source code
+Every release includes a `SHA256SUMS.txt` file. Verify the installer before opening it:
 
-This repository distributes official installers and release notes only. The PlayNest Studio source repository is private and is not published here.
+**Windows PowerShell**
 
-## Support
+```powershell
+Get-FileHash .\PlayNest.Studio_*.exe -Algorithm SHA256
+```
 
-If an installer fails, include the PlayNest Studio version, operating system version, and relevant application logs when reporting the issue.
+**macOS Terminal**
+
+```bash
+shasum -a 256 PlayNest-Studio-*
+```
+
+Compare the resulting hash with the matching entry in `SHA256SUMS.txt`.
+
+## Operating-system security notices
+
+Unsigned or newly published desktop applications may trigger Windows Smart App Control, Microsoft Defender SmartScreen, or macOS Gatekeeper warnings. Download PlayNest Studio only from this repository and verify the checksum before installation.
+
+## Getting support
+
+When reporting an installation or runtime problem, include:
+
+- PlayNest Studio version
+- Operating-system name and version
+- Processor architecture (`x64`, Intel, or Apple silicon)
+- Relevant application log lines
+- A screenshot of the error, when available
+
+Do not include access tokens, API keys, credentials, or other sensitive information in reports.
+
+---
+
+Copyright © PlayNest. All rights reserved.
